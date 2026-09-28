@@ -1,0 +1,15 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weatherApp.js",
+  "scripts": {
+    "start": "node weatherApp.js",
+    "dev": "node -r dotenv/config weatherApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
